@@ -1,0 +1,29 @@
+{
+  "name": "eslint-types",
+  "version": "0.1.0",
+  "description": "generate eslint types from library's jsdoc comments",
+  "type": "module",
+  "main": "",
+  "types": "./types/lib/api.d.ts",
+  "exports": {
+    ".": {
+      "types": "./types/lib/api.d.ts"
+    },
+    "./unsupported-api": {
+      "types": "./types/lib/unsupported-api.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "tsc -b --clean",
+    "clean-build": "pnpm clean && pnpm build",
+    "prepare": "pnpm build"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "*"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}

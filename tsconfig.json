@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "alwaysStrict": true,
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "module": "NodeNext",
+    "outDir": "types",
+    "removeComments": false,
+    "skipLibCheck": false,
+    "strictNullChecks": false,
+    "target": "ESNext",
+  },
+  "include": [
+    "node_modules/eslint"
+  ]
+}
