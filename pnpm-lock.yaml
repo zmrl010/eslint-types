@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  eslint: ^8.27.0
+  eslint: '*'
   typescript: ^4.8.4
 
 dependencies:

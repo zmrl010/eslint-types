@@ -9,7 +9,7 @@
     ".": {
       "types": "./types/lib/api.d.ts"
     },
-    "./unsupported-api": {
+    "./use-at-your-own-risk": {
       "types": "./types/lib/unsupported-api.d.ts"
     }
   },
